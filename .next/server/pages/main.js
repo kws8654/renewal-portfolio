@@ -1,0 +1,96 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/main";
+exports.ids = ["pages/main"];
+exports.modules = {
+
+/***/ "./components/Main/pages/MainPage.tsx":
+/*!********************************************!*\
+  !*** ./components/Main/pages/MainPage.tsx ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"MainPage\": () => (/* binding */ MainPage)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_UI_MacLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @components/UI/MacLayout */ \"./components/UI/MacLayout.tsx\");\n/* harmony import */ var _emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/react/jsx-dev-runtime */ \"@emotion/react/jsx-dev-runtime\");\n/* harmony import */ var _emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);\nvar _jsxFileName = \"/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/components/Main/pages/MainPage.tsx\";\n\n\n\nconst MainPage = () => {\n  return (0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(_components_UI_MacLayout__WEBPACK_IMPORTED_MODULE_1__.MacLayout, {\n    children: (0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(\"section\", {\n      className: \"p-4 w-full h-[calc(100%-25px)] bg-amber-200\",\n      children: (0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(\"div\", {\n        className: \"grid grid-cols-2 w-[300px] border border-red-500\",\n        children: [(0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(\"div\", {\n          children: \"\\uD30C\\uC77C\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 11,\n          columnNumber: 11\n        }, undefined), (0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(\"div\", {\n          children: \"\\uD30C\\uC77C\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 12,\n          columnNumber: 11\n        }, undefined), (0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(\"div\", {\n          children: \"\\uD30C\\uC77C\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 13,\n          columnNumber: 11\n        }, undefined), (0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(\"div\", {\n          children: \"\\uD30C\\uC77C\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 14,\n          columnNumber: 11\n        }, undefined), (0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(\"div\", {\n          children: \"\\uD30C\\uC77C\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 15,\n          columnNumber: 11\n        }, undefined)]\n      }, void 0, true, {\n        fileName: _jsxFileName,\n        lineNumber: 10,\n        columnNumber: 9\n      }, undefined)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 9,\n      columnNumber: 7\n    }, undefined)\n  }, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 6,\n    columnNumber: 5\n  }, undefined);\n};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL01haW4vcGFnZXMvTWFpblBhZ2UudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBQTtBQUNBOztBQUVPLE1BQU1FLFFBQVEsR0FBRyxNQUFNO0VBQzVCLE9BQ0UsdUVBQUMsK0RBQUQ7SUFBQSxVQUdFO01BQVMsU0FBUyxFQUFDLDZDQUFuQjtNQUFBLFVBQ0U7UUFBSyxTQUFTLEVBQUMsa0RBQWY7UUFBQSxXQUNFO1VBQUE7UUFBQTtVQUFBO1VBQUE7VUFBQTtRQUFBLGFBREYsRUFFRTtVQUFBO1FBQUE7VUFBQTtVQUFBO1VBQUE7UUFBQSxhQUZGLEVBR0U7VUFBQTtRQUFBO1VBQUE7VUFBQTtVQUFBO1FBQUEsYUFIRixFQUlFO1VBQUE7UUFBQTtVQUFBO1VBQUE7VUFBQTtRQUFBLGFBSkYsRUFLRTtVQUFBO1FBQUE7VUFBQTtVQUFBO1VBQUE7UUFBQSxhQUxGO01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTtJQURGO01BQUE7TUFBQTtNQUFBO0lBQUE7RUFIRjtJQUFBO0lBQUE7SUFBQTtFQUFBLGFBREY7QUFlRCxDQWhCTSIsInNvdXJjZXMiOlsid2VicGFjazovL3JlbmV3YWwtcG9wcnRmb2xpby8uL2NvbXBvbmVudHMvTWFpbi9wYWdlcy9NYWluUGFnZS50c3g/MDFkNiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgTWFjTGF5b3V0IH0gZnJvbSAnQGNvbXBvbmVudHMvVUkvTWFjTGF5b3V0JztcblxuZXhwb3J0IGNvbnN0IE1haW5QYWdlID0gKCkgPT4ge1xuICByZXR1cm4gKFxuICAgIDxNYWNMYXlvdXQ+XG4gICAgICB7LypCYWNrZ3JvdW5kLWltYWdlKi99XG4gICAgICB7LypQb3J0Zm9saW8tZmlsZXMqL31cbiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ncC00IHctZnVsbCBoLVtjYWxjKDEwMCUtMjVweCldIGJnLWFtYmVyLTIwMCc+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdncmlkIGdyaWQtY29scy0yIHctWzMwMHB4XSBib3JkZXIgYm9yZGVyLXJlZC01MDAnPlxuICAgICAgICAgIDxkaXY+7YyM7J28PC9kaXY+XG4gICAgICAgICAgPGRpdj7tjIzsnbw8L2Rpdj5cbiAgICAgICAgICA8ZGl2Pu2MjOydvDwvZGl2PlxuICAgICAgICAgIDxkaXY+7YyM7J28PC9kaXY+XG4gICAgICAgICAgPGRpdj7tjIzsnbw8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L3NlY3Rpb24+XG4gICAgPC9NYWNMYXlvdXQ+XG4gICk7XG59O1xuIl0sIm5hbWVzIjpbIlJlYWN0IiwiTWFjTGF5b3V0IiwiTWFpblBhZ2UiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/Main/pages/MainPage.tsx\n");
+
+/***/ }),
+
+/***/ "./components/UI/DockBar.tsx":
+/*!***********************************!*\
+  !*** ./components/UI/DockBar.tsx ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"DockBar\": () => (/* binding */ DockBar)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/react/jsx-dev-runtime */ \"@emotion/react/jsx-dev-runtime\");\n/* harmony import */ var _emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);\nvar _jsxFileName = \"/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/components/UI/DockBar.tsx\";\n\n\nconst DockBar = () => {\n  return (0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"section\", {\n    className: \"absolute bottom-[20px] bg-gray-200 h-[70px] w-[70%]\",\n    children: \"DockBar\"\n  }, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 4,\n    columnNumber: 10\n  }, undefined);\n};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL1VJL0RvY2tCYXIudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBOztBQUVPLE1BQU1DLE9BQU8sR0FBRyxNQUFNO0VBQzNCLE9BQU87SUFBUyxTQUFTLEVBQUMscURBQW5CO0lBQUE7RUFBQTtJQUFBO0lBQUE7SUFBQTtFQUFBLGFBQVA7QUFDRCxDQUZNIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcmVuZXdhbC1wb3BydGZvbGlvLy4vY29tcG9uZW50cy9VSS9Eb2NrQmFyLnRzeD9hYWExIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmV4cG9ydCBjb25zdCBEb2NrQmFyID0gKCkgPT4ge1xuICByZXR1cm4gPHNlY3Rpb24gY2xhc3NOYW1lPSdhYnNvbHV0ZSBib3R0b20tWzIwcHhdIGJnLWdyYXktMjAwIGgtWzcwcHhdIHctWzcwJV0nPkRvY2tCYXI8L3NlY3Rpb24+O1xufTtcbiJdLCJuYW1lcyI6WyJSZWFjdCIsIkRvY2tCYXIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/UI/DockBar.tsx\n");
+
+/***/ }),
+
+/***/ "./components/UI/MacLayout.tsx":
+/*!*************************************!*\
+  !*** ./components/UI/MacLayout.tsx ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"MacLayout\": () => (/* binding */ MacLayout)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_UI_TopBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @components/UI/TopBar */ \"./components/UI/TopBar.tsx\");\n/* harmony import */ var _components_UI_DockBar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @components/UI/DockBar */ \"./components/UI/DockBar.tsx\");\n/* harmony import */ var _emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @emotion/react/jsx-dev-runtime */ \"@emotion/react/jsx-dev-runtime\");\n/* harmony import */ var _emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);\nvar _jsxFileName = \"/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/components/UI/MacLayout.tsx\";\n\n\n\n\nconst MacLayout = ({\n  children\n}) => {\n  return (0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"section\", {\n    className: \"flex justify-center items-center w-full h-screen bg-black\",\n    children: (0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"section\", {\n      className: \"relative flex flex-col w-[80%] h-[80%] border-2 rounded-lg\",\n      children: [(0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(_components_UI_TopBar__WEBPACK_IMPORTED_MODULE_1__.TopBar, {}, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 9,\n        columnNumber: 9\n      }, undefined), children, (0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(_components_UI_DockBar__WEBPACK_IMPORTED_MODULE_2__.DockBar, {}, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 11,\n        columnNumber: 9\n      }, undefined)]\n    }, void 0, true, {\n      fileName: _jsxFileName,\n      lineNumber: 8,\n      columnNumber: 7\n    }, undefined)\n  }, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 7,\n    columnNumber: 5\n  }, undefined);\n};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL1VJL01hY0xheW91dC50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQTtBQUNBO0FBQ0E7O0FBRU8sTUFBTUcsU0FBUyxHQUFHLENBQUM7RUFBRUM7QUFBRixDQUFELEtBQXVCO0VBQzlDLE9BQ0U7SUFBUyxTQUFTLEVBQUMsMkRBQW5CO0lBQUEsVUFDRTtNQUFTLFNBQVMsRUFBQyw0REFBbkI7TUFBQSxXQUNFLHVFQUFDLHlEQUFEO1FBQUE7UUFBQTtRQUFBO01BQUEsYUFERixFQUVHQSxRQUZILEVBR0UsdUVBQUMsMkRBQUQ7UUFBQTtRQUFBO1FBQUE7TUFBQSxhQUhGO0lBQUE7TUFBQTtNQUFBO01BQUE7SUFBQTtFQURGO0lBQUE7SUFBQTtJQUFBO0VBQUEsYUFERjtBQVNELENBVk0iLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yZW5ld2FsLXBvcHJ0Zm9saW8vLi9jb21wb25lbnRzL1VJL01hY0xheW91dC50c3g/ZTliNSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgVG9wQmFyIH0gZnJvbSAnQGNvbXBvbmVudHMvVUkvVG9wQmFyJztcbmltcG9ydCB7IERvY2tCYXIgfSBmcm9tICdAY29tcG9uZW50cy9VSS9Eb2NrQmFyJztcblxuZXhwb3J0IGNvbnN0IE1hY0xheW91dCA9ICh7IGNoaWxkcmVuIH06IGFueSkgPT4ge1xuICByZXR1cm4gKFxuICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0nZmxleCBqdXN0aWZ5LWNlbnRlciBpdGVtcy1jZW50ZXIgdy1mdWxsIGgtc2NyZWVuIGJnLWJsYWNrJz5cbiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ncmVsYXRpdmUgZmxleCBmbGV4LWNvbCB3LVs4MCVdIGgtWzgwJV0gYm9yZGVyLTIgcm91bmRlZC1sZyc+XG4gICAgICAgIDxUb3BCYXIgLz5cbiAgICAgICAge2NoaWxkcmVufVxuICAgICAgICA8RG9ja0JhciAvPlxuICAgICAgPC9zZWN0aW9uPlxuICAgIDwvc2VjdGlvbj5cbiAgKTtcbn07XG4iXSwibmFtZXMiOlsiUmVhY3QiLCJUb3BCYXIiLCJEb2NrQmFyIiwiTWFjTGF5b3V0IiwiY2hpbGRyZW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/UI/MacLayout.tsx\n");
+
+/***/ }),
+
+/***/ "./components/UI/TopBar.tsx":
+/*!**********************************!*\
+  !*** ./components/UI/TopBar.tsx ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"TopBar\": () => (/* binding */ TopBar)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/react/jsx-dev-runtime */ \"@emotion/react/jsx-dev-runtime\");\n/* harmony import */ var _emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);\nvar _jsxFileName = \"/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/components/UI/TopBar.tsx\";\n\n\nconst TopBar = () => {\n  return (0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"section\", {\n    className: \"flex justify-between px-2 h-[25px] bg-gray-200\",\n    children: [(0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"div\", {\n      children: \"left\"\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 6,\n      columnNumber: 7\n    }, undefined), (0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"div\", {\n      children: \"right\"\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 10,\n      columnNumber: 7\n    }, undefined)]\n  }, void 0, true, {\n    fileName: _jsxFileName,\n    lineNumber: 5,\n    columnNumber: 5\n  }, undefined);\n};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL1VJL1RvcEJhci50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQUE7O0FBRU8sTUFBTUMsTUFBTSxHQUFHLE1BQU07RUFDMUIsT0FDRTtJQUFTLFNBQVMsRUFBQyxnREFBbkI7SUFBQSxXQUNFO01BQUE7SUFBQTtNQUFBO01BQUE7TUFBQTtJQUFBLGFBREYsRUFLRTtNQUFBO0lBQUE7TUFBQTtNQUFBO01BQUE7SUFBQSxhQUxGO0VBQUE7SUFBQTtJQUFBO0lBQUE7RUFBQSxhQURGO0FBU0QsQ0FWTSIsInNvdXJjZXMiOlsid2VicGFjazovL3JlbmV3YWwtcG9wcnRmb2xpby8uL2NvbXBvbmVudHMvVUkvVG9wQmFyLnRzeD8wNWViIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmV4cG9ydCBjb25zdCBUb3BCYXIgPSAoKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPHNlY3Rpb24gY2xhc3NOYW1lPSdmbGV4IGp1c3RpZnktYmV0d2VlbiBweC0yIGgtWzI1cHhdIGJnLWdyYXktMjAwJz5cbiAgICAgIDxkaXY+XG4gICAgICAgIHsvKmxlZnQqL31cbiAgICAgICAgbGVmdFxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2PnsvKnJpZ2h0Ki99cmlnaHQ8L2Rpdj5cbiAgICA8L3NlY3Rpb24+XG4gICk7XG59O1xuIl0sIm5hbWVzIjpbIlJlYWN0IiwiVG9wQmFyIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/UI/TopBar.tsx\n");
+
+/***/ }),
+
+/***/ "./pages/main/index.tsx":
+/*!******************************!*\
+  !*** ./pages/main/index.tsx ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_Main_pages_MainPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @components/Main/pages/MainPage */ \"./components/Main/pages/MainPage.tsx\");\n/* harmony import */ var _emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/react/jsx-dev-runtime */ \"@emotion/react/jsx-dev-runtime\");\n/* harmony import */ var _emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);\nvar _jsxFileName = \"/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/pages/main/index.tsx\";\n\n\n\n\nconst Main = () => {\n  return (0,_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(_components_Main_pages_MainPage__WEBPACK_IMPORTED_MODULE_1__.MainPage, {}, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 5,\n    columnNumber: 10\n  }, undefined);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Main);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9tYWluL2luZGV4LnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQUE7QUFDQTs7O0FBRUEsTUFBTUUsSUFBSSxHQUFHLE1BQU07RUFDakIsT0FBTyx1RUFBQyxxRUFBRDtJQUFBO0lBQUE7SUFBQTtFQUFBLGFBQVA7QUFDRCxDQUZEOztBQUlBLGlFQUFlQSxJQUFmIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcmVuZXdhbC1wb3BydGZvbGlvLy4vcGFnZXMvbWFpbi9pbmRleC50c3g/MmM3NyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgTWFpblBhZ2UgfSBmcm9tICdAY29tcG9uZW50cy9NYWluL3BhZ2VzL01haW5QYWdlJztcblxuY29uc3QgTWFpbiA9ICgpID0+IHtcbiAgcmV0dXJuIDxNYWluUGFnZSAvPjtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IE1haW47XG4iXSwibmFtZXMiOlsiUmVhY3QiLCJNYWluUGFnZSIsIk1haW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/main/index.tsx\n");
+
+/***/ }),
+
+/***/ "@emotion/react/jsx-dev-runtime":
+/*!*************************************************!*\
+  !*** external "@emotion/react/jsx-dev-runtime" ***!
+  \*************************************************/
+/***/ ((module) => {
+
+module.exports = require("@emotion/react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = require("react");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./pages/main/index.tsx"));
+module.exports = __webpack_exports__;
+
+})();
