@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ESNext", // import 문법, 'commonjs', 'amd', 'es2015', 'esnext'
+    "allowJs": true, // js 파일들 ts에서 import해서 쓸 수 있는지
+    "checkJs": true, // 일반 js 파일에서도 에러체크 여부
+    "jsx": "preserve", // tsx 파일을 jsx로 어떻게 컴파일할 것인지 'preserve', 'react-native', 'react'
+    "declaration": true, // 컴파일시 .d.ts 파일 자동 생성 (현재 사용하는 모든 타입이 정의된 파일)
+    "noUnusedLocals": false, // 사용하지 않는 지역변수 에러 체크
+    "noUnusedParameters": false, // 사용하지 않는 파라미터 에러 체크
+    "noImplicitReturns": true, // 함수 내 return 유무 체크
+    "noImplicitThis": false,
+    "noImplicitAny": true, // any 타입 금지 여부
+    "noFallthroughCasesInSwitch": true, // switch문 에러 체크
+    "noEmit": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    //     "strictNullChecks": true, // null, undefined 타입 조작 관련 에러
+    "strict": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true, // 컴파일시 주석제거
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": ".next",
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "incremental": true,
+    "baseUrl": ".",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "paths": {
+      "@/*": ["./*"],
+      "@pages/*": ["pages/*"],
+      "@server/*": ["server/*"],
+      "@public/*": ["public/*"],
+      "@styles/*": ["styles/*"],
+      "@components/*": ["components/*"],
+      "@lib/*": ["lib/*"],
+      "@utils/*": ["utils/*"],
+      "@services/*": ["services/*"],
+      "@hooks/*": ["hooks/*"],
+    }
+  },
+  "include": ["index.d.ts", "next-env.d.ts", "**/*.tsx", "**/*.ts", "**/*.jsx", "**/*.js"],
+  "exclude": [".next", "node_modules"]
+}
