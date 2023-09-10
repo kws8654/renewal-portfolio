@@ -6,7 +6,7 @@ interface PortfolioLayoutProps {
   summary: string;
 }
 
-export const PortfolioLayout = ({ props }: PortfolioLayoutProps) => {
+export const PortfolioLayout = (props: PortfolioLayoutProps) => {
   const { name, image, summary } = props;
 
   return (

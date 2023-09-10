@@ -7,7 +7,11 @@ module.exports = {
     './pageComponents/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        macbookBackgroundImage: 'url(../public/images/macbook-background.jpeg)',
+      },
+    },
     screens: {
       '2xl': { max: '1535px' },
       // => @media (max-width: 1535px) { ... }
