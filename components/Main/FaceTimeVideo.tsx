@@ -1,8 +1,10 @@
-import React, { forwardRef } from 'react';
+import React, { ForwardedRef, forwardRef } from 'react';
 import { Buttons } from '@components/UI/Buttons';
+import Image from 'next/image';
+import facetimeButtons from '../../public/images/facetime-buttons.png';
 
 // eslint-disable-next-line react/display-name
-const FaceTimeVideo = forwardRef((props: any, ref: any) => {
+export const FaceTimeVideo = forwardRef((props: any, ref: ForwardedRef<any>) => {
   return (
     <section
       ref={ref}
@@ -11,10 +13,14 @@ const FaceTimeVideo = forwardRef((props: any, ref: any) => {
       <div className='relative flex justify-between p-1 styles-bar-gradient'>
         <Buttons />
         <p className='w-full font-semibold text-center'>Facetime</p>
+        <Image
+          src={facetimeButtons}
+          alt={'facetimeButtons'}
+          width={140}
+          className='styles-x-center top-[50px]'
+        />
       </div>
       <video src='./videos/facetime.mov' autoPlay muted loop />
     </section>
   );
 });
-
-export default FaceTimeVideo;

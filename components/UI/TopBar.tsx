@@ -11,7 +11,7 @@ import { LiveTime } from '@components/UI/LiveTime';
 
 export const TopBar = () => {
   return (
-    <section className='flex justify-between px-2 h-[26px] styles-bar-gradient'>
+    <section className='flex justify-between p-2 h-[26px] styles-bar-gradient border-b'>
       <div className='flex items-center gap-[5px] styles-text-sm'>
         <Image src={appleUdLogo} alt={'appleUdLogo'} width={25} />
         <p className='mx-2 font-semibold'>Wonsub's Portfolio</p>

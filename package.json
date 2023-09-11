@@ -29,6 +29,9 @@
     "less": "^4.1.3",
     "less-loader": "^11.1.0",
     "next-with-less": "^2.0.5",
+    "notion-client": "^6.16.0",
+    "react-notion-x": "^6.16.0",
+    "react-spinners": "^0.13.7",
     "recoil": "^0.7.6",
     "recoil-persist": "^4.2.0"
   },

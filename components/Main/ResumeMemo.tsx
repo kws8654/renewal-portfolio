@@ -1,12 +1,12 @@
-import React, { forwardRef } from 'react';
+import React, { ForwardedRef, forwardRef } from 'react';
 import { Buttons } from '@components/UI/Buttons';
 
 // eslint-disable-next-line react/display-name
-export const ResumeMemo = forwardRef((prop: any, ref: any) => {
+export const ResumeMemo = forwardRef((prop: any, ref: ForwardedRef<any>) => {
   return (
     <section
       ref={ref}
-      className='absolute flex flex-col top-[150px] right-[400px] w-[500px] h-[390px] rounded-lg styles-text-xs overflow-hidden cursor-grab z-30'
+      className='absolute flex flex-col top-[150px] right-[400px] w-[500px] h-[440px] rounded-lg styles-text-xs overflow-hidden cursor-grab z-30'
     >
       <div className='relative flex justify-between p-1 styles-bar-gradient'>
         <Buttons />
@@ -31,10 +31,12 @@ export const ResumeMemo = forwardRef((prop: any, ref: any) => {
         </p>
         <br />
         <p>
-          {/*✔️ Next.js, React.js, TypeScript, Tailwind, Emotion.js*/}
-          {/*<br />*/}
-          {/*✔️ Mapbox, React-map-gl, turf.js <br />*/}
-          {/*✔️ HTML, CSS, JavaScript <br />*/}
+          Team Tiger _ Frontend Engineer (13.03 - 13.07)
+          <br />
+          Fleetune _ Frontend Engineer (15.03 - 21.02)
+        </p>
+        <br />
+        <p>
           ✔️ HTML / CSS / Sass / Less / Styled-Components / Emotion.js / Tailwind
           <br />
           ✔️ JavaScript(~ES7) / TypeScript / HTML5 / JavaScript API

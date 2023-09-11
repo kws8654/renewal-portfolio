@@ -59,4 +59,21 @@ body {
     transition: ease 0.3s;
   }
 
+  .styles-notification-animation {
+    box-shadow: rgb(50, 50, 50) 5px 5px 10px 0px;
+    animation: alert 1s ease both;
+    animation-delay: 2s;
+  }
+
+  @keyframes alert {
+    from {
+      right: 0px;
+      opacity: 0;
+    }
+
+    to {
+      right: 10px;
+      opacity: 1;
+    }
+  }
 }

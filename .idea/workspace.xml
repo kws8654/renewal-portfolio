@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d5dcec3-0299-47c1-8c1e-846494d03bb2" name="변경" comment="" />
+    <list default="true" id="9d5dcec3-0299-47c1-8c1e-846494d03bb2" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Main/Portfolio.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/UI/LoadingBackground.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/UI/NotionPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/portfolio/[pageId].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/facetime-buttons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reocil/ClickedPortfolio/atom.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Main/FaceTimeVideo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/FaceTimeVideo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Main/Folder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/Folder.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Main/ResumeMemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/ResumeMemo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Main/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/pages/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Portfolio/pages/PortfolioPage-1.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Portfolio/pages/PortfolioPage-2.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Portfolio/pages/PortfolioPage-3.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UI/LiveTime.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/LiveTime.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UI/MacLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/MacLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UI/PortfolioLayout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UI/TopBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/TopBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/portfolio/[index].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/Notification.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +38,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Re9X3ygiQsZRMXyO3Cu308zhQw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -25,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio",
+    "last_opened_file_path": "/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/reocil",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
@@ -37,13 +62,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/reocil" />
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/components/UI" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/components/Main" />
-      <recent name="$PROJECT_DIR$/components/Portfolio/pages" />
-      <recent name="$PROJECT_DIR$/public/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/pages/portfolio" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
@@ -57,7 +84,8 @@
       <workItem from="1687599717678" duration="82000" />
       <workItem from="1687599807690" duration="2680000" />
       <workItem from="1691904979152" duration="1335000" />
-      <workItem from="1694242351195" duration="17221000" />
+      <workItem from="1694242351195" duration="19410000" />
+      <workItem from="1694406416976" duration="14431000" />
     </task>
     <servers />
   </component>

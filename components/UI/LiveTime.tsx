@@ -1,5 +1,8 @@
 import React from 'react';
+import dayjs from 'dayjs';
+import 'dayjs/locale/ko';
+dayjs.locale('ko');
 
 export const LiveTime = () => {
-  return <p className='styles-text-sm '>9월 10일 (일) 14:51</p>;
+  return <p className='styles-text-sm '>{dayjs().format('MM월 DD일 (ddd) HH:mm')}</p>;
 };
