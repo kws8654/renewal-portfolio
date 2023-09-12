@@ -25,15 +25,15 @@ export const ResumeMemo = forwardRef((prop: any, ref: ForwardedRef<any>) => {
         <br />
         <br />
         <p>
-          Hanyang University _ Architecture (13.03 - 13.07)
+          Hanyang University _ Architecture (2013.03 - 2013.07)
           <br />
-          Sangmyung University _ Scenography (15.03 - 21.02)
+          Sangmyung University _ Scenography (2015.03 - 2021.02)
         </p>
         <br />
         <p>
-          Team Tiger _ Frontend Engineer (13.03 - 13.07)
+          Team Tiger _ Frontend Engineer (2021.03 - 2022.06)
           <br />
-          Fleetune _ Frontend Engineer (15.03 - 21.02)
+          Fleetune _ Frontend Engineer (2022.10 - )
         </p>
         <br />
         <p>
@@ -43,7 +43,7 @@ export const ResumeMemo = forwardRef((prop: any, ref: ForwardedRef<any>) => {
           <br />
           ✔️ React.js / Next.js / Recoil / React-Query
           <br />
-          ✔️ Mapbox GL / React Map GL / MapLibre GL
+          ✔️ Mapbox GL / React Map GL / MapLibre GL / Turf.js
           <br />
           ✔️ Git (Github, Bitbucket, Gitlab)
         </p>

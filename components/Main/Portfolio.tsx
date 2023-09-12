@@ -1,18 +1,30 @@
-import React, { ForwardedRef, forwardRef, useState } from 'react';
+/* @jsxImportSource @emotion/react */
+import React, { ForwardedRef, forwardRef, useEffect, useState } from 'react';
 import Image from 'next/image';
+import tw from 'twin.macro';
 import porfoliFile from '@public/images/pf1.png';
 import { useRouter } from 'next/router';
 import { useRecoilState } from 'recoil';
 import { atomClickedPortfolio } from '@/reocil/ClickedPortfolio/atom';
 
+const ABSOLUTE_POSITION = [
+  { top: '40px', left: '20px' },
+  { top: '160px', left: '8px' },
+  { top: '280px', left: '26px' },
+  { top: '400px', left: '26px' },
+  { top: '40px', left: '140px' },
+  { top: '160px', left: '160px' },
+];
+
 interface PortfolioProps {
+  index: number;
   title: string;
   link: string;
 }
 
 // eslint-disable-next-line react/display-name
 export const Portfolio = forwardRef((props: PortfolioProps, ref: ForwardedRef<any>) => {
-  const { title, link } = props;
+  const { index, title, link } = props;
   const router = useRouter();
   const [clickedPortfolio, setClickedPortfolio] = useRecoilState(atomClickedPortfolio);
 
@@ -24,11 +36,13 @@ export const Portfolio = forwardRef((props: PortfolioProps, ref: ForwardedRef<an
   return (
     <div
       ref={ref}
-      className='flex flex-col items-center cursor-pointer'
+      css={[
+        tw`absolute flex flex-col items-center cursor-pointer`,
+        { top: ABSOLUTE_POSITION[index].top, left: ABSOLUTE_POSITION[index].left },
+      ]}
       onClick={onClickHandler}
       onDoubleClick={() => router.push(link)}
     >
-      {/*<div ref={ref} className='absolute flex flex-col items-center'>*/}
       <Image
         src={porfoliFile}
         alt={'porfoliFile'}

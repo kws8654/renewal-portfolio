@@ -7,7 +7,6 @@ import { ResumeMemo } from '@components/Main/ResumeMemo';
 import { FaceTimeVideo } from '@components/Main/FaceTimeVideo';
 import { atomClickedPortfolio } from '@/reocil/ClickedPortfolio/atom';
 import { Notification } from '@components/Main/Notification';
-import { notification } from 'antd';
 
 const PORTFOLIOS = [
   {
@@ -107,6 +106,7 @@ export const MainPage = () => {
             return (
               <Portfolio
                 key={index}
+                index={index}
                 ref={componentRefs[index]}
                 title={portfolio.title}
                 link={portfolio.link}
