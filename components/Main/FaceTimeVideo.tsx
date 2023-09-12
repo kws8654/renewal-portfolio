@@ -8,7 +8,7 @@ export const FaceTimeVideo = forwardRef((props: any, ref: ForwardedRef<any>) => 
   return (
     <section
       ref={ref}
-      className='absolute flex flex-col bottom-[150px] right-[50px] w-[500px] h-[300px] rounded-lg overflow-hidden styles-text-xs cursor-grab'
+      className='absolute flex flex-col bottom-[150px] right-[50px] w-[500px] h-[300px] rounded-lg overflow-hidden styles-text-xs cursor-grab md:hidden'
     >
       <div className='relative flex justify-between p-1 styles-bar-gradient'>
         <Buttons />

@@ -115,7 +115,7 @@ export const MainPage = () => {
           })}
           <Folder ref={componentRefs[PORTFOLIOS.length]} />
         </div>
-        <div className='absolute top-[40px] right-[10px] flex flex-col gap-[10px]'>
+        <div className='absolute top-[40px] right-[10px] flex flex-col gap-[10px] md:hidden'>
           {NOTIFICATIONS.map((notification: { title: string; message: string }, index: number) => {
             return (
               <Notification key={index} title={notification.title} message={notification.message} />

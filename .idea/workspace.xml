@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d5dcec3-0299-47c1-8c1e-846494d03bb2" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/twin.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Main/Folder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/Folder.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Main/Portfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/Portfolio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Main/FaceTimeVideo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/FaceTimeVideo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Main/ResumeMemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/ResumeMemo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Main/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/pages/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UI/Buttons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/Buttons.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UI/DockBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/DockBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UI/TopBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/TopBar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,7 @@
       <workItem from="1687599807690" duration="2680000" />
       <workItem from="1691904979152" duration="1335000" />
       <workItem from="1694242351195" duration="19410000" />
-      <workItem from="1694406416976" duration="20032000" />
+      <workItem from="1694406416976" duration="22425000" />
     </task>
     <servers />
   </component>
