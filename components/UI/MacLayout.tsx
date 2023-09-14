@@ -12,7 +12,7 @@ export const MacLayout = forwardRef((prop?: any, ref?: any) => {
     <section className='flex justify-center items-center w-full h-screen bg-black'>
       <div
         ref={ref}
-        className='relative flex flex-col w-[80%] h-[80%] border border-gray-500 rounded-lg overflow-hidden'
+        className='relative flex flex-col w-[1400px] h-[800px] border border-gray-500 rounded-lg overflow-hidden'
       >
         <TopBar />
         {children}

@@ -29,21 +29,22 @@ export const NotionPage = ({
   }
 
   return (
-    <NotionRenderer
-      className='overflow-y-scroll'
-      disableHeader
-      recordMap={recordMap}
-      fullPage={true}
-      darkMode={true}
-      rootPageId={rootPageId}
-      mapPageUrl={(pageId) => `/portfolio/${pageId}`}
-      components={{
-        Code,
-        Collection,
-        Equation,
-        Pdf,
-        Modal,
-      }}
-    />
+    <section className='h-[774px] w-full overflow-y-scroll overflow-x-hidden'>
+      <NotionRenderer
+        disableHeader
+        recordMap={recordMap}
+        fullPage={true}
+        darkMode={true}
+        rootPageId={rootPageId}
+        mapPageUrl={(pageId) => `/portfolio/${pageId}`}
+        components={{
+          Code,
+          Collection,
+          Equation,
+          Pdf,
+          Modal,
+        }}
+      />
+    </section>
   );
 };

@@ -11,25 +11,25 @@ import { Notification } from '@components/Main/Notification';
 const PORTFOLIOS = [
   {
     title: 'FLORT_fleetune',
-    link: '/portfolio/Portfolio_1-fc5adbff93f345fd8f2dc87d4ae26622?pvs=4',
+    link: '/portfolio/Portfolio_1-b874bacdf7244bcebe8c15ecceca96fe?pvs=4',
   },
   {
     title: 'Dashboard_fleetune',
-    link: '/portfolio/Portfolio_2-c58739c484b4454fb2f67f034e5d150f?pvs=4',
+    link: '/portfolio/Portfolio_2-510aa4ae831347a0b7a946081038f26b?pvs=4',
   },
   {
     title: 'DAT_fleetune',
-    link: '/portfolio/Portfolio_3-8f020c4d504648148b3926d81adef840?pvs=4',
+    link: '/portfolio/Portfolio_3-fcb2534eaea2470bbb4a98493ba3ecf0?pvs=4',
   },
   {
     title: 'ROT_fleetune',
-    link: '/portfolio/Portfolio_4-2ecb5cab47af4a388f9b6b0b040af322?pvs=4',
+    link: '/portfolio/Portfolio_4-67a057c6477a44d6a41c665a49a58e72?pvs=4',
   },
   {
     title: 'Homepage_fleetune',
-    link: '/portfolio/Portfolio_5-ba388755979e420388052c60234112af?pvs=4',
+    link: '/portfolio/Portfolio_5-636595d6755641a5af254f8f5e11fe0d?pvs=4',
   },
-  { title: '.etc', link: '/portfolio/Portfolio_6-a1f9ba0778ec413ea46acb98810d7248?pvs=4' },
+  { title: '.etc', link: '/portfolio/Portfolio_6-7c5c721f49bc44b3b652012e76c2deb5?pvs=4' },
 ];
 
 const NOTIFICATIONS = [
