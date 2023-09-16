@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d5dcec3-0299-47c1-8c1e-846494d03bb2" name="변경" comment="" />
+    <list default="true" id="9d5dcec3-0299-47c1-8c1e-846494d03bb2" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Home/pages/HomePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scene.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scene.gltf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UI/MacLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/MacLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UI/TopBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/TopBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +27,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2Re9X3ygiQsZRMXyO3Cu308zhQw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/wonsubraykim/Desktop/wonsubraykim/renewal-portfolio",
+    "last_opened_file_path": "/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,19 +52,20 @@
     "nodejs_package_manager_path": "yarn",
     "prettierjs.PrettierConfiguration.Package": "/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/textures" />
+      <recent name="$PROJECT_DIR$/public/videos" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/reocil" />
-      <recent name="$PROJECT_DIR$/pages" />
-      <recent name="$PROJECT_DIR$/components/UI" />
-      <recent name="$PROJECT_DIR$/components/Main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/textures" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/pages/portfolio" />
     </key>
@@ -72,6 +84,7 @@
       <workItem from="1694242351195" duration="19410000" />
       <workItem from="1694406416976" duration="22425000" />
       <workItem from="1694587095898" duration="1194000" />
+      <workItem from="1694846387696" duration="9789000" />
     </task>
     <servers />
   </component>

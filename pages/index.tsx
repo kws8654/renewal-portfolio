@@ -1,7 +1,5 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import { HomePage } from '@components/Home/pages/HomePage';
 
 export default function Home() {
-  return <div className='text-3xl'>hello</div>;
+  return <HomePage />;
 }

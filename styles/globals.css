@@ -62,7 +62,51 @@ body {
   .styles-notification-animation {
     box-shadow: rgb(50, 50, 50) 5px 5px 10px 0px;
     animation: alert 1s ease both;
-    animation-delay: 2s;
+    animation-delay: 1s;
+  }
+
+  .styles-transition {
+    animation: transition 1s ease both;
+  }
+
+  .styles-apple-logo-transition:hover {
+    transform: scale(1.2);
+    transition: ease 0.3s;
+  }
+
+  .styles-loading-bar {
+    width: 446px;
+    height: 6px;
+    margin-left: 1px;
+    border-radius: 15px;
+    background: white;
+    position: absolute;
+    box-shadow: 0px 0px 10px 1px white;
+    animation: chargingBar 5s ease-out;
+  }
+
+  @keyframes chargingBar {
+    0% {
+      width: 0px;
+    }
+
+    60% {
+      width: 300px;
+    }
+
+    100% {
+      width: 446px;
+    }
+  }
+
+  @keyframes transition {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
   }
 
   @keyframes alert {

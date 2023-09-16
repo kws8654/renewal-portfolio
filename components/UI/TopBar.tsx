@@ -25,10 +25,10 @@ export const TopBar = () => {
           </div>
         </div>
         <div className='flex items-center gap-[15px]'>
-          <Image src={kakaoTalk} alt={'kakaoTalk'} width={15} />
+          <Image src={kakaoTalk} alt={'kakaoTalk'} width={17} />
           <Image src={network} alt={'network'} width={15} />
-          <Image src={battery} alt={'battery'} width={15} />
-          <Image src={wifi} alt={'wifi'} width={15} />
+          <Image src={battery} alt={'battery'} width={20} />
+          <Image src={wifi} alt={'wifi'} width={19} />
           <Image src={magnifier} alt={'magnifier'} width={15} />
           <Image src={toggle} alt={'toggle'} width={15} />
           <LiveTime />
