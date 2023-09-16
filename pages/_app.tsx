@@ -27,6 +27,8 @@ export default function App({ Component, pageProps: { ...pageProps } }: AppProps
           name='viewport'
           content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'
         />
+        <title>Wonsub Kim_Portfolio</title>
+        <link rel='icon' href='/favicon.png' />
       </Head>
       <RecoilRoot>
         <Component {...pageProps} />
