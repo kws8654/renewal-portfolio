@@ -22,8 +22,8 @@ interface PortfolioProps {
   link: string;
 }
 
-// eslint-disable-next-line react/display-name
 export const Portfolio = forwardRef((props: PortfolioProps, ref: ForwardedRef<any>) => {
+  Portfolio.displayName = 'Portfolio';
   const { index, title, link } = props;
   const router = useRouter();
   const [clickedPortfolio, setClickedPortfolio] = useRecoilState(atomClickedPortfolio);

@@ -69,7 +69,7 @@ const StartScene = ({ onClickApple }: any) => {
         ref={canvasRef}
         className='cursor-pointer transform rotate-180 hover:scale-125 transition'
       ></canvas>
-      <p className='text-gray-500 text-center z-30'>
+      <p className='text-gray-500 text-center z-10'>
         Please check your volume, <br />
         before click this suspicious apple.
       </p>

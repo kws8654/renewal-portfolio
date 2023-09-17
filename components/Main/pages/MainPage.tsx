@@ -7,46 +7,15 @@ import { ResumeMemo } from '@components/Main/ResumeMemo';
 import { FaceTimeVideo } from '@components/Main/FaceTimeVideo';
 import { atomClickedPortfolio } from '@/reocil/ClickedPortfolio/atom';
 import { Notification } from '@components/Main/Notification';
-
-const PORTFOLIOS = [
-  {
-    title: 'FLORT_fleetune',
-    link: '/portfolio/Portfolio_1-b874bacdf7244bcebe8c15ecceca96fe?pvs=4',
-  },
-  {
-    title: 'Dashboard_fleetune',
-    link: '/portfolio/Portfolio_2-510aa4ae831347a0b7a946081038f26b?pvs=4',
-  },
-  {
-    title: 'DAT_fleetune',
-    link: '/portfolio/Portfolio_3-fcb2534eaea2470bbb4a98493ba3ecf0?pvs=4',
-  },
-  {
-    title: 'ROT_fleetune',
-    link: '/portfolio/Portfolio_4-67a057c6477a44d6a41c665a49a58e72?pvs=4',
-  },
-  {
-    title: 'Homepage_fleetune',
-    link: '/portfolio/Portfolio_5-636595d6755641a5af254f8f5e11fe0d?pvs=4',
-  },
-  { title: '.etc', link: '/portfolio/Portfolio_6-7c5c721f49bc44b3b652012e76c2deb5?pvs=4' },
-];
-
-const NOTIFICATIONS = [
-  {
-    title: '알림',
-    message: 'Nice to meet you, Stranger',
-  },
-  {
-    title: '중요 알림',
-    message: 'You can drag and move something',
-  },
-];
+import { OpenedFolder } from '@components/Main/OpenedFolder';
+import { MusicPlayer } from '@components/Main/MusicPlayer';
+import { PORTFOLIOS, NOTIFICATIONS } from '@/constants/common';
 
 export const MainPage = () => {
   const containerRef = useRef(null);
-  const [componentRefs] = useState(() => Array.from({ length: 10 }, () => createRef<any>()));
+  const [componentRefs] = useState(() => Array.from({ length: 11 }, () => createRef<any>()));
   const setClickedPortfolio = useSetRecoilState(atomClickedPortfolio);
+  const [onClickFolder, setOnClickFolder] = useState(false);
 
   useEffect(() => {
     const { width: containerWidth, height: containerHeight } =
@@ -113,7 +82,7 @@ export const MainPage = () => {
               />
             );
           })}
-          <Folder ref={componentRefs[PORTFOLIOS.length]} />
+          <Folder ref={componentRefs[PORTFOLIOS.length]} setOnClickFolder={setOnClickFolder} />
         </div>
         <div className='absolute top-[40px] right-[10px] flex flex-col gap-[10px] md:hidden'>
           {NOTIFICATIONS.map((notification: { title: string; message: string }, index: number) => {
@@ -122,8 +91,14 @@ export const MainPage = () => {
             );
           })}
         </div>
-        <ResumeMemo ref={componentRefs[PORTFOLIOS.length + 1]} />
-        <FaceTimeVideo ref={componentRefs[PORTFOLIOS.length + 2]} />
+        <FaceTimeVideo ref={componentRefs[PORTFOLIOS.length + 1]} />
+        <MusicPlayer ref={componentRefs[PORTFOLIOS.length + 2]} />
+        <ResumeMemo ref={componentRefs[PORTFOLIOS.length + 3]} />
+        <OpenedFolder
+          ref={componentRefs[PORTFOLIOS.length + 4]}
+          onClickFolder={onClickFolder}
+          setOnClickFolder={setOnClickFolder}
+        />
       </section>
     </MacLayout>
   );

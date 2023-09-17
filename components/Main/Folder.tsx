@@ -4,8 +4,13 @@ import folder from '@public/images/folder.png';
 import { useRecoilState } from 'recoil';
 import { atomClickedPortfolio } from '@/reocil/ClickedPortfolio/atom';
 
-// eslint-disable-next-line react/display-name
-export const Folder = forwardRef((props: any, ref: ForwardedRef<any>) => {
+interface FolderProps {
+  setOnClickFolder: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+export const Folder = forwardRef((props: FolderProps, ref: ForwardedRef<any>) => {
+  Folder.displayName = 'Folder';
+  const { setOnClickFolder } = props;
   const [clickedPortfolio, setClickedPortfolio] = useRecoilState(atomClickedPortfolio);
 
   const onClickHandler = (event: any) => {
@@ -18,6 +23,7 @@ export const Folder = forwardRef((props: any, ref: ForwardedRef<any>) => {
       ref={ref}
       className='absolute top-[305px] left-[175px] flex flex-col items-center'
       onClick={onClickHandler}
+      onDoubleClick={() => setOnClickFolder(true)}
     >
       <Image
         src={folder}

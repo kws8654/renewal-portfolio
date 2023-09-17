@@ -10,13 +10,18 @@ import terminal from '../../public/images/terminal.png';
 import notion from '../../public/images/notion.png';
 import velog from '../../public/images/velog.png';
 import git from '../../public/images/git.png';
+import Link from 'next/link';
 
 export const DockBar = () => {
   return (
     <>
       <section className='styles-x-center bottom-8 px-2 flex items-center justify-between rounded-2xl bg-gray-400 bg-opacity-60 h-[70px] w-[750px] md:hidden'>
-        <Image src={chrome} alt={'chrome'} width={65} className='styles-dock-icon' />
-        <Image src={discord} alt={'discord'} width={65} className='styles-dock-icon' />
+        <Link href={'/google'}>
+          <Image src={chrome} alt={'chrome'} width={65} className='styles-dock-icon' />
+        </Link>
+        <Link href={'/discord'}>
+          <Image src={discord} alt={'discord'} width={65} className='styles-dock-icon' />
+        </Link>
         <Image src={eclipse} alt={'eclipse'} width={65} className='styles-dock-icon' />
         <Image src={music} alt={'music'} width={65} className='styles-dock-icon' />
         <Image src={vsc} alt={'vsc'} width={65} className='styles-dock-icon' />
