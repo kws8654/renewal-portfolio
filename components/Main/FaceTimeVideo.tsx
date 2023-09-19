@@ -21,7 +21,7 @@ export const FaceTimeVideo = forwardRef((_: object, ref: ForwardedRef<any>) => {
           className='styles-x-center top-0'
         />
       </div>
-      <video src='./videos/facetime.mov' autoPlay muted loop />
+      <video className='px-8 bg-black' src='./videos/facetime.mov' autoPlay muted loop />
     </section>
   );
 });

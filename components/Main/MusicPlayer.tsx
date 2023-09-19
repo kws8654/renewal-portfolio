@@ -10,7 +10,7 @@ export const MusicPlayer = forwardRef((_: object, ref: ForwardedRef<any>) => {
   return (
     <div
       ref={ref}
-      className='absolute top-[100px] right-[200px] flex flex-col w-[301px] border border-gray-300 bg-gray-100 rounded-lg overflow-hidden hover:z-40'
+      className='absolute top-[100px] right-[340px] flex flex-col w-[301px] border border-gray-300 bg-gray-100 rounded-lg overflow-hidden hover:z-40'
     >
       <div className='relative top-1'>
         <Buttons ref={ref} />

@@ -5,37 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d5dcec3-0299-47c1-8c1e-846494d03bb2" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Main/MusicPlayer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Main/OpenedFolder.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/UI/LoadingSpinner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useLoading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/[externalUrl].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/3d/scene.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/3d/scene.gltf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/3d/textures/Material.001_baseColor.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/3d/textures/Material.001_metallicRoughness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/4walls.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/4walls.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/dolby-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Main/Gallery.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Home/pages/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Home/pages/HomePage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Main/FaceTimeVideo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/FaceTimeVideo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Main/Folder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/Folder.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Main/Portfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/Portfolio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Main/MusicPlayer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/MusicPlayer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Main/ResumeMemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/ResumeMemo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Main/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/pages/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UI/Buttons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/Buttons.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/UI/DockBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/DockBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UI/LoadingBackground.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UI/LiveTime.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/LiveTime.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/UI/MacLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/MacLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UI/NotionPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/NotionPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/common.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/common.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/useDnd.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,24 +38,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -106,7 +85,8 @@
       <workItem from="1694242351195" duration="19410000" />
       <workItem from="1694406416976" duration="22425000" />
       <workItem from="1694587095898" duration="1194000" />
-      <workItem from="1694846387696" duration="32803000" />
+      <workItem from="1694846387696" duration="33611000" />
+      <workItem from="1695109970278" duration="3870000" />
     </task>
     <servers />
   </component>

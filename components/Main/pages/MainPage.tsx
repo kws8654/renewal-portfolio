@@ -10,10 +10,11 @@ import { Notification } from '@components/Main/Notification';
 import { OpenedFolder } from '@components/Main/OpenedFolder';
 import { MusicPlayer } from '@components/Main/MusicPlayer';
 import { PORTFOLIOS, NOTIFICATIONS } from '@/constants/common';
+import { Gallery } from '@components/Main/Gallery';
 
 export const MainPage = () => {
   const containerRef = useRef(null);
-  const [componentRefs] = useState(() => Array.from({ length: 11 }, () => createRef<any>()));
+  const [componentRefs] = useState(() => Array.from({ length: 12 }, () => createRef<any>()));
   const setClickedPortfolio = useSetRecoilState(atomClickedPortfolio);
   const [onClickFolder, setOnClickFolder] = useState(false);
 
@@ -67,7 +68,7 @@ export const MainPage = () => {
   return (
     <MacLayout ref={containerRef}>
       <section
-        className='p-4 w-full h-[calc(100%-25px)] bg-cover bg-macbookBackgroundImage'
+        className='w-full h-[calc(100%-25px)] bg-cover bg-macbookBackgroundImage'
         onClick={() => setClickedPortfolio(null)}
       >
         <div className='grid grid-cols-2 gap-[20px] w-[250px]'>
@@ -99,6 +100,7 @@ export const MainPage = () => {
           onClickFolder={onClickFolder}
           setOnClickFolder={setOnClickFolder}
         />
+        <Gallery ref={componentRefs[PORTFOLIOS.length + 5]} />
       </section>
     </MacLayout>
   );

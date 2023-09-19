@@ -22,10 +22,10 @@ export const DockBar = () => {
         <Link href={'/discord'}>
           <Image src={discord} alt={'discord'} width={65} className='styles-dock-icon' />
         </Link>
-        <Image src={eclipse} alt={'eclipse'} width={65} className='styles-dock-icon' />
+        {/*<Image src={eclipse} alt={'eclipse'} width={65} className='styles-dock-icon' />*/}
         <Image src={music} alt={'music'} width={65} className='styles-dock-icon' />
         <Image src={vsc} alt={'vsc'} width={65} className='styles-dock-icon' />
-        <Image src={docker} alt={'docker'} width={65} className='styles-dock-icon' />
+        {/*<Image src={docker} alt={'docker'} width={65} className='styles-dock-icon' />*/}
         <Image src={terminal} alt={'terminal'} width={65} className='styles-dock-icon' />
         <Image src={notion} alt={'notion'} width={55} className='styles-dock-icon' />
         <Image src={velog} alt={'velog'} width={50} className='styles-dock-icon' />

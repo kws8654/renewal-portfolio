@@ -7,7 +7,7 @@ export const ResumeMemo = forwardRef((_: object, ref: ForwardedRef<any>) => {
   return (
     <section
       ref={ref}
-      className='absolute flex flex-col top-[150px] right-[400px] w-[500px] h-[440px] rounded-lg styles-text-xs
+      className='absolute flex flex-col top-[170px] right-[600px] w-[500px] h-[440px] rounded-lg styles-text-xs
       overflow-hidden cursor-grab hover:z-40 md:hidden'
     >
       <div className='relative flex justify-between p-1 styles-bar-gradient'>
