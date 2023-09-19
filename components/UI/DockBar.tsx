@@ -13,9 +13,11 @@ import git from '../../public/images/git.png';
 import Link from 'next/link';
 import { useSetRecoilState } from 'recoil';
 import { atomOnClickGallery } from '@/reocil/OnClickGallery/atom';
+import { atomOnClickChatRoom } from '@/reocil/OnClickChatRoom/atom';
 
 export const DockBar = () => {
   const setOnClickGallery = useSetRecoilState(atomOnClickGallery);
+  const setOnClickChatRoom = useSetRecoilState(atomOnClickChatRoom);
 
   return (
     <>
@@ -29,6 +31,13 @@ export const DockBar = () => {
         <Image src={music} alt={'music'} width={65} className='styles-dock-icon' />
         <Image
           onClick={() => setOnClickGallery(true)}
+          src={vsc}
+          alt={'vsc'}
+          width={65}
+          className='styles-dock-icon'
+        />
+        <Image
+          onClick={() => setOnClickChatRoom(true)}
           src={vsc}
           alt={'vsc'}
           width={65}
