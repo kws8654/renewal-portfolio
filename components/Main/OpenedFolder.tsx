@@ -54,7 +54,6 @@ export const OpenedFolder = forwardRef((props: OpenedFolderProps, ref: Forwarded
     }
   }, [folderCanvasRef]);
 
-  let faAppStore;
   return (
     <div
       ref={ref}

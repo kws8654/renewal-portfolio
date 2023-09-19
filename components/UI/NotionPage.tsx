@@ -46,7 +46,7 @@ export const NotionPage = ({
   }
 
   return (
-    <section className='flex w-full h-[774px] styles-text-sm overflow-x-hidden'>
+    <section className='flex w-full w-[1450px] styles-text-sm overflow-x-hidden'>
       <div className='flex flex-col gap-[10px] w-[15%] h-full p-3 bg-neutral-900 text-neutral-500'>
         <div className='flex items-center gap-[10px]'>
           <Image src={profile} alt={'profile'} width={40} />

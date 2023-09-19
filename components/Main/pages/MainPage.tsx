@@ -11,10 +11,11 @@ import { OpenedFolder } from '@components/Main/OpenedFolder';
 import { MusicPlayer } from '@components/Main/MusicPlayer';
 import { PORTFOLIOS, NOTIFICATIONS } from '@/constants/common';
 import { Gallery } from '@components/Main/Gallery';
+import { ChatRoom } from '@components/Main/ChatRoom';
 
 export const MainPage = () => {
   const containerRef = useRef(null);
-  const [componentRefs] = useState(() => Array.from({ length: 12 }, () => createRef<any>()));
+  const [componentRefs] = useState(() => Array.from({ length: 13 }, () => createRef<any>()));
   const setClickedPortfolio = useSetRecoilState(atomClickedPortfolio);
   const [onClickFolder, setOnClickFolder] = useState(false);
 
@@ -101,6 +102,7 @@ export const MainPage = () => {
           setOnClickFolder={setOnClickFolder}
         />
         <Gallery ref={componentRefs[PORTFOLIOS.length + 5]} />
+        {/*<ChatRoom ref={componentRefs[PORTFOLIOS.length + 6]} />*/}
       </section>
     </MacLayout>
   );
