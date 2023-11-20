@@ -101,7 +101,7 @@ export const MainPage = () => {
           onClickFolder={onClickFolder}
           setOnClickFolder={setOnClickFolder}
         />
-        <Gallery ref={componentRefs[PORTFOLIOS.length + 5]} />
+        {/*<Gallery ref={componentRefs[PORTFOLIOS.length + 5]} />*/}
         <ChatRoom ref={componentRefs[PORTFOLIOS.length + 6]} />
       </section>
     </MacLayout>

@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d5dcec3-0299-47c1-8c1e-846494d03bb2" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/reocil/OnClickChatRoom/atom.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/videos/facetime.webm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Main/ChatRoom.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/ChatRoom.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Main/FaceTimeVideo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/FaceTimeVideo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Main/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/pages/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UI/DockBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/DockBar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/reocil",
+    "last_opened_file_path": "/Users/wonsubraykim/Desktop/wonsub/programming/repository/project/renewal-portfolio/public/videos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,6 +81,9 @@
       <workItem from="1694587095898" duration="1194000" />
       <workItem from="1694846387696" duration="33611000" />
       <workItem from="1695109970278" duration="9753000" />
+      <workItem from="1696896997750" duration="26000" />
+      <workItem from="1700188657693" duration="2917000" />
+      <workItem from="1700462909533" duration="671000" />
     </task>
     <servers />
   </component>
