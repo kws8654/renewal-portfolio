@@ -12,12 +12,15 @@ import { MusicPlayer } from '@components/Main/MusicPlayer';
 import { PORTFOLIOS, NOTIFICATIONS } from '@/constants/common';
 import { Gallery } from '@components/Main/Gallery';
 import { ChatRoom } from '@components/Main/ChatRoom';
+import { DocFolder } from '@components/Main/DocFolder';
+import { OpenedDocFolder } from '@components/Main/OpendDocFolder';
 
 export const MainPage = () => {
   const containerRef = useRef(null);
   const [componentRefs] = useState(() => Array.from({ length: 13 }, () => createRef<any>()));
   const setClickedPortfolio = useSetRecoilState(atomClickedPortfolio);
   const [onClickFolder, setOnClickFolder] = useState(false);
+  const [onClickDocFolder, setOnClickDocFolder] = useState(false);
 
   useEffect(() => {
     const { width: containerWidth, height: containerHeight } =
@@ -84,7 +87,11 @@ export const MainPage = () => {
               />
             );
           })}
-          <Folder ref={componentRefs[PORTFOLIOS.length]} setOnClickFolder={setOnClickFolder} />
+          <Folder ref={componentRefs[PORTFOLIOS.length - 1]} setOnClickFolder={setOnClickFolder} />
+          <DocFolder
+            ref={componentRefs[PORTFOLIOS.length]}
+            setOnClickDocFolder={setOnClickDocFolder}
+          />
         </div>
         <div className='absolute top-[40px] right-[10px] flex flex-col gap-[10px] md:hidden'>
           {NOTIFICATIONS.map((notification: { title: string; message: string }, index: number) => {
@@ -100,6 +107,11 @@ export const MainPage = () => {
           ref={componentRefs[PORTFOLIOS.length + 4]}
           onClickFolder={onClickFolder}
           setOnClickFolder={setOnClickFolder}
+        />
+        <OpenedDocFolder
+          ref={componentRefs[PORTFOLIOS.length + 5]}
+          onClickDocFolder={onClickDocFolder}
+          setOnClickDocFolder={setOnClickDocFolder}
         />
         {/*<Gallery ref={componentRefs[PORTFOLIOS.length + 5]} />*/}
         <ChatRoom ref={componentRefs[PORTFOLIOS.length + 6]} />

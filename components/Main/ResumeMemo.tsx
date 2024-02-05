@@ -27,15 +27,15 @@ export const ResumeMemo = forwardRef((_: object, ref: ForwardedRef<any>) => {
         <br />
         <br />
         <p>
-          Hanyang University _ Architecture (2013.03 - 2013.07)
-          <br />
           Sangmyung University _ Scenography (2015.03 - 2021.02)
+          <br />
+          Hanyang University _ Architecture (2013.03 - 2013.07)
         </p>
         <br />
         <p>
-          Team Tiger _ Frontend Engineer (2021.03 - 2022.06)
-          <br />
           Fleetune _ Frontend Engineer (2022.10 - )
+          <br />
+          Team Tiger _ Frontend Engineer (2021.03 - 2022.06)
         </p>
         <br />
         <p>
