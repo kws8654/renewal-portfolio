@@ -9,11 +9,12 @@ import { atomClickedPortfolio } from '@/reocil/ClickedPortfolio/atom';
 import { Notification } from '@components/Main/Notification';
 import { OpenedFolder } from '@components/Main/OpenedFolder';
 import { MusicPlayer } from '@components/Main/MusicPlayer';
-import { PORTFOLIOS, NOTIFICATIONS } from '@/constants/common';
+import { NOTIFICATIONS, MAIN_ASSETS } from '@/constants/common';
 import { Gallery } from '@components/Main/Gallery';
 import { ChatRoom } from '@components/Main/ChatRoom';
 import { DocFolder } from '@components/Main/DocFolder';
 import { OpenedDocFolder } from '@components/Main/OpendDocFolder';
+import { MainAsset } from '@components/Main/MainAsset';
 
 export const MainPage = () => {
   const containerRef = useRef(null);
@@ -76,23 +77,49 @@ export const MainPage = () => {
         onClick={() => setClickedPortfolio(null)}
       >
         <div className='grid grid-cols-2 gap-[20px] w-[250px]'>
-          {PORTFOLIOS.map((portfolio: { title: string; link: string }, index: number) => {
-            return (
-              <Portfolio
-                key={index}
-                index={index}
-                ref={componentRefs[index]}
-                title={portfolio.title}
-                link={portfolio.link}
-              />
-            );
-          })}
-          <Folder ref={componentRefs[PORTFOLIOS.length - 1]} setOnClickFolder={setOnClickFolder} />
-          <DocFolder
-            ref={componentRefs[PORTFOLIOS.length]}
-            setOnClickDocFolder={setOnClickDocFolder}
-          />
+          {MAIN_ASSETS.map(
+            (asset: { type: string; title: string; link: string }, index: number) => {
+              const folderSetter =
+                asset.type === 'folder'
+                  ? MAIN_ASSETS.length - 1 === index
+                    ? setOnClickDocFolder
+                    : setOnClickFolder
+                  : null;
+
+              return (
+                <MainAsset
+                  key={index}
+                  index={index}
+                  ref={componentRefs[index]}
+                  type={asset.type}
+                  title={asset.title}
+                  link={asset.link}
+                  openFolder={folderSetter}
+                />
+              );
+            },
+          )}
+          {/*<Folder ref={componentRefs[MAIN_ASSETS.length - 1]} setOnClickFolder={setOnClickFolder} />*/}
+          {/*<DocFolder*/}
+          {/*  ref={componentRefs[MAIN_ASSETS.length]}*/}
+          {/*  setOnClickDocFolder={setOnClickDocFolder}*/}
+          {/*/>*/}
         </div>
+        <FaceTimeVideo ref={componentRefs[MAIN_ASSETS.length + 1]} />
+        <MusicPlayer ref={componentRefs[MAIN_ASSETS.length + 2]} />
+        <ResumeMemo ref={componentRefs[MAIN_ASSETS.length + 3]} />
+        <OpenedFolder
+          ref={componentRefs[MAIN_ASSETS.length + 4]}
+          onClickFolder={onClickFolder}
+          setOnClickFolder={setOnClickFolder}
+        />
+        {/*<OpenedDocFolder*/}
+        {/*  ref={componentRefs[MAIN_ASSETS.length + 5]}*/}
+        {/*  onClickDocFolder={onClickDocFolder}*/}
+        {/*  setOnClickDocFolder={setOnClickDocFolder}*/}
+        {/*/>*/}
+        {/*<Gallery ref={componentRefs[MAIN_ASSETS.length + 5]} />*/}
+        <ChatRoom ref={componentRefs[MAIN_ASSETS.length + 6]} />
         <div className='absolute top-[40px] right-[10px] flex flex-col gap-[10px] md:hidden'>
           {NOTIFICATIONS.map((notification: { title: string; message: string }, index: number) => {
             return (
@@ -100,21 +127,6 @@ export const MainPage = () => {
             );
           })}
         </div>
-        <FaceTimeVideo ref={componentRefs[PORTFOLIOS.length + 1]} />
-        <MusicPlayer ref={componentRefs[PORTFOLIOS.length + 2]} />
-        <ResumeMemo ref={componentRefs[PORTFOLIOS.length + 3]} />
-        <OpenedFolder
-          ref={componentRefs[PORTFOLIOS.length + 4]}
-          onClickFolder={onClickFolder}
-          setOnClickFolder={setOnClickFolder}
-        />
-        <OpenedDocFolder
-          ref={componentRefs[PORTFOLIOS.length + 5]}
-          onClickDocFolder={onClickDocFolder}
-          setOnClickDocFolder={setOnClickDocFolder}
-        />
-        {/*<Gallery ref={componentRefs[PORTFOLIOS.length + 5]} />*/}
-        <ChatRoom ref={componentRefs[PORTFOLIOS.length + 6]} />
       </section>
     </MacLayout>
   );

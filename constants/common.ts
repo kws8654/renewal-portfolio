@@ -1,34 +1,42 @@
-export const PORTFOLIOS = [
+export const MAIN_ASSETS = [
   {
+    type: 'file',
     title: 'Fleetune',
     link: '/portfolio/Fleetune-b874bacdf7244bcebe8c15ecceca96fe?pvs=4',
   },
   {
+    type: 'file',
     title: 'POI Editor_Fleetune',
     link: '/portfolio/POI-Editor_Fleetune-706919f732bc4aa2a06b578a44958798?pvs=4',
   },
   {
+    type: 'file',
     title: 'DAT_Fleetune',
     link: '/portfolio/DAT_Fleetune-fcb2534eaea2470bbb4a98493ba3ecf0?pvs=4',
   },
   {
+    type: 'file',
     title: 'Dashboard_Fleetune',
     link: '/portfolio/Dashboard_Fleetune-510aa4ae831347a0b7a946081038f26b?pvs=4',
   },
   {
+    type: 'file',
     title: 'Homepage_Fleetune',
     link: '/portfolio/Homepage_Fleetune-636595d6755641a5af254f8f5e11fe0d?pvs=4',
   },
-  { title: '.etc', link: '/portfolio/Toy-projects-7c5c721f49bc44b3b652012e76c2deb5?pvs=4' },
-];
-
-export const Documents = [
   {
+    type: 'file',
+    title: '.etc',
+    link: '/portfolio/Toy-projects-7c5c721f49bc44b3b652012e76c2deb5?pvs=4'
+  },
+  {
+    type: 'folder',
     title: 'Resume',
     link: '/portfolio/Wonsub-Kim-d58bb97f680141a08ff482a5eed248b8?pvs=4',
   },
   {
-    title: 'Career Description',
+    type: 'folder',
+    title: 'folder',
     link: '/portfolio/Wonsub-Kim-e2a5e5d346d042cf841dc166275c92c5?pvs=4',
   },
 ];

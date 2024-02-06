@@ -81,7 +81,7 @@ const LoadingScene = () => {
   return (
     <section className='flex justify-center items-center w-full h-screen bg-neutral-900'>
       <div className='flex flex-col justify-center items-center gap-[60px] w-[1400px] h-[800px] border border-gray-500 rounded-lg bg-black overflow-hidden styles-transition'>
-        <Image src={appleLogo} alt={'appleLogo'} width={100} />
+        <Image src={appleLogo} alt={'appleLogo'} width={100} height={100} />
         <div className='flex items-center w-[450px] h-[10px] border rounded-lg overflow-hidden'>
           <div className='styles-loading-bar'>{/*Loading-Bar*/}</div>
         </div>
@@ -101,7 +101,7 @@ const LogInScene = () => {
   return (
     <MacLayout>
       <div className='flex flex-col justify-center items-center h-full'>
-        <Image src={profileImage} alt={'profileImage'} width={180} />
+        <Image src={profileImage} alt={'profileImage'} width={180} height={180} />
         <p className='styles-text-xl text-center text-white'>Guest 19</p>
         <form onSubmit={pushToMain}>
           <input
