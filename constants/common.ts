@@ -27,16 +27,27 @@ export const MAIN_ASSETS = [
   {
     type: 'file',
     title: '.etc',
-    link: '/portfolio/Toy-projects-7c5c721f49bc44b3b652012e76c2deb5?pvs=4'
+    link: '/portfolio/Toy-projects-7c5c721f49bc44b3b652012e76c2deb5?pvs=4',
   },
   {
     type: 'folder',
+    title: 'Click Here!',
+    link: null,
+  },
+  {
+    type: 'folder',
+    title: 'Documents',
+    link: null,
+  },
+];
+
+export const Documents = [
+  {
     title: 'Resume',
     link: '/portfolio/Wonsub-Kim-d58bb97f680141a08ff482a5eed248b8?pvs=4',
   },
   {
-    type: 'folder',
-    title: 'folder',
+    title: 'Career Description',
     link: '/portfolio/Wonsub-Kim-e2a5e5d346d042cf841dc166275c92c5?pvs=4',
   },
 ];

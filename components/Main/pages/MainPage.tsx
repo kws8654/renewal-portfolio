@@ -15,6 +15,8 @@ import { ChatRoom } from '@components/Main/ChatRoom';
 import { DocFolder } from '@components/Main/DocFolder';
 import { OpenedDocFolder } from '@components/Main/OpendDocFolder';
 import { MainAsset } from '@components/Main/MainAsset';
+import Image from 'next/image';
+import macBookBackgroundImage from '../../../public/images/macbook-background.jpeg';
 
 export const MainPage = () => {
   const containerRef = useRef(null);
@@ -73,9 +75,10 @@ export const MainPage = () => {
   return (
     <MacLayout ref={containerRef}>
       <section
-        className='w-full h-[calc(100%-25px)] bg-cover bg-macbookBackgroundImage'
+        className='relative w-full h-[calc(100%-25px)]'
         onClick={() => setClickedPortfolio(null)}
       >
+        <Image src={macBookBackgroundImage} alt='macBookBackgroundImage' fill={true} />
         <div className='grid grid-cols-2 gap-[20px] w-[250px]'>
           {MAIN_ASSETS.map(
             (asset: { type: string; title: string; link: string }, index: number) => {
@@ -99,11 +102,6 @@ export const MainPage = () => {
               );
             },
           )}
-          {/*<Folder ref={componentRefs[MAIN_ASSETS.length - 1]} setOnClickFolder={setOnClickFolder} />*/}
-          {/*<DocFolder*/}
-          {/*  ref={componentRefs[MAIN_ASSETS.length]}*/}
-          {/*  setOnClickDocFolder={setOnClickDocFolder}*/}
-          {/*/>*/}
         </div>
         <FaceTimeVideo ref={componentRefs[MAIN_ASSETS.length + 1]} />
         <MusicPlayer ref={componentRefs[MAIN_ASSETS.length + 2]} />
@@ -113,11 +111,11 @@ export const MainPage = () => {
           onClickFolder={onClickFolder}
           setOnClickFolder={setOnClickFolder}
         />
-        {/*<OpenedDocFolder*/}
-        {/*  ref={componentRefs[MAIN_ASSETS.length + 5]}*/}
-        {/*  onClickDocFolder={onClickDocFolder}*/}
-        {/*  setOnClickDocFolder={setOnClickDocFolder}*/}
-        {/*/>*/}
+        <OpenedDocFolder
+          ref={componentRefs[MAIN_ASSETS.length + 5]}
+          onClickDocFolder={onClickDocFolder}
+          setOnClickDocFolder={setOnClickDocFolder}
+        />
         {/*<Gallery ref={componentRefs[MAIN_ASSETS.length + 5]} />*/}
         <ChatRoom ref={componentRefs[MAIN_ASSETS.length + 6]} />
         <div className='absolute top-[40px] right-[10px] flex flex-col gap-[10px] md:hidden'>

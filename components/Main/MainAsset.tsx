@@ -8,14 +8,14 @@ import { useRecoilState } from 'recoil';
 import { atomClickedPortfolio } from '@/reocil/ClickedPortfolio/atom';
 
 const ABSOLUTE_POSITION = [
-  { top: '40px', left: '20px' },
+  { top: '40px', left: '25px' },
   { top: '160px', left: '8px' },
   { top: '280px', left: '26px' },
-  { top: '400px', left: '26px' },
+  { top: '400px', left: '6px' },
   { top: '40px', left: '140px' },
   { top: '160px', left: '160px' },
-  { top: '280px', left: '160px' },
-  { top: '400px', left: '160px' },
+  { top: '310px', left: '170px' },
+  { top: '430px', left: '170px' },
 ];
 
 interface MainAssetProps {
@@ -54,9 +54,11 @@ export const MainAsset = forwardRef((props: MainAssetProps, ref: ForwardedRef<an
       <Image
         src={`/images/${type}.png`}
         alt={`${type}-${index}`}
-        width={100}
-        height={100}
-        className={`${title === clickedPortfolio && 'border bg-gray-500 bg-opacity-50 rounded-md'}`}
+        width={type === 'file' ? 100 : 80}
+        height={type === 'file' ? 100 : 80}
+        className={`${
+          title === clickedPortfolio && 'border bg-gray-500 bg-opacity-50 rounded-md'
+        } ${type === 'folder' && 'mb-3'}`}
       />
       <p
         className={`px-1 styles-text-sm text-white ${
