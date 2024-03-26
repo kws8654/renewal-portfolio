@@ -33,7 +33,7 @@ export const ResumeMemo = forwardRef((_: object, ref: ForwardedRef<any>) => {
         </p>
         <br />
         <p>
-          Fleetune _ Frontend Engineer (2022.10 - )
+          Fleetune _ Frontend Engineer (2022.10 - 2024.02)
           <br />
           Team Tiger _ Frontend Engineer (2021.03 - 2022.06)
         </p>

@@ -80,6 +80,8 @@ export const NotionPage = ({
   recordMap: ExtendedRecordMap;
   rootPageId?: string;
 }) => {
+  const pathname = useRouter().pathname;
+
   if (!recordMap) {
     return null;
   }
@@ -95,70 +97,37 @@ export const NotionPage = ({
           </div>
         </div>
         <div className='flex flex-col gap-[5px] p-2 font-bold'>
-          <p>
+          <div>
             <FontAwesomeIcon icon={faMagnifyingGlass} className='mr-1' /> 검색
-          </p>
-          <p>
+          </div>
+          <div>
             <FontAwesomeIcon icon={faClock} className='mr-1' /> 업데이트
-          </p>
-          <p>
+          </div>
+          <div>
             <FontAwesomeIcon icon={faGear} className='mr-1' /> 설정과 멤버
-          </p>
-          <p>
+          </div>
+          <div>
             <FontAwesomeIcon icon={faCirclePlus} className='mr-1' /> 새 페이지
-          </p>
+          </div>
         </div>
         <div className='flex flex-col gap-[5px] p-2'>
           <p className='font-bold'>개인 페이지</p>
-          <p className='px-2 font-bold'>
-            <FontAwesomeIcon icon={faChevronUp} className='mr-2' />
-            📌 Portfolios
-            <div className='flex flex-col gap-[5px] mt-1 ml-3'>
-              <p>
-                <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
-                porfolio 1
-              </p>
-              <p>
-                <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
-                porfolio 2
-              </p>
-              <p>
-                <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
-                porfolio 3
-              </p>
-              <p>
-                <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
-                porfolio 4
-              </p>
-              <p>
-                <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
-                porfolio 5
-              </p>
-              <p>
-                <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
-                porfolio 6
-              </p>
-              <p>
-                <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
-                porfolio 7
-              </p>
-            </div>
-          </p>
+          {!pathname.includes('documents') ? <PortfolioMenu /> : <DocumentMenu />}
         </div>
         <div className='flex flex-col items-start gap-[5px] p-2 font-bold'>
-          <p>
+          <div>
             <FontAwesomeIcon icon={faPeopleGroup} /> 팀스페이스 생성
-          </p>
-          <p>
+          </div>
+          <div>
             <FontAwesomeIcon icon={faShapes} className='mr-1' /> 템플릿
-          </p>
-          <p>
+          </div>
+          <div>
             <FontAwesomeIcon icon={faFileImport} className='mr-1' /> 가져오기
-          </p>
-          <p>
+          </div>
+          <div>
             <FontAwesomeIcon icon={faTrash} className='mr-2.5' />
             휴지통
-          </p>
+          </div>
         </div>
       </div>
       <div className='w-[85%] h-full overflow-y-scroll overflow-x-hidden'>
@@ -180,5 +149,71 @@ export const NotionPage = ({
         />
       </div>
     </section>
+  );
+};
+
+const PortfolioMenu = () => {
+  return (
+    <div className='px-2 font-bold'>
+      <FontAwesomeIcon icon={faChevronUp} className='mr-2' />
+      📌 Portfolios
+      <div className='flex flex-col gap-[5px] mt-1 ml-3'>
+        <div>
+          <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
+          porfolio 1
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
+          porfolio 2
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
+          porfolio 3
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
+          porfolio 4
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
+          porfolio 5
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
+          porfolio 6
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
+          porfolio 7
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const DocumentMenu = () => {
+  return (
+    <div className='px-2 font-bold'>
+      <FontAwesomeIcon icon={faChevronUp} className='mr-2' />
+      📌 Documents
+      <div className='flex flex-col gap-[5px] mt-1 ml-3'>
+        <div>
+          <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
+          Resume_ko
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
+          Resume_en
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
+          Career Desc_kr
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faAngleRight} className='mr-2' />
+          Career Desc_en
+        </div>
+      </div>
+    </div>
   );
 };

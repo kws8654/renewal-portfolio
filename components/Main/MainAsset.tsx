@@ -12,6 +12,7 @@ const ABSOLUTE_POSITION = [
   { top: '160px', left: '8px' },
   { top: '280px', left: '26px' },
   { top: '400px', left: '6px' },
+  { top: '520px', left: '6px' },
   { top: '40px', left: '140px' },
   { top: '160px', left: '160px' },
   { top: '310px', left: '170px' },

@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d5dcec3-0299-47c1-8c1e-846494d03bb2" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Main/DocFolder.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Main/OpendDocFolder.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/documents/[pageId].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Main/MainAsset.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/MainAsset.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Main/ResumeMemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/ResumeMemo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Main/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/pages/MainPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/UI/NotionPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/NotionPage.tsx" afterDir="false" />
@@ -89,7 +89,9 @@
       <workItem from="1700462909533" duration="1474000" />
       <workItem from="1702801734421" duration="2011000" />
       <workItem from="1705846460826" duration="6130000" />
-      <workItem from="1707114491070" duration="3478000" />
+      <workItem from="1707114491070" duration="5937000" />
+      <workItem from="1707903219778" duration="2190000" />
+      <workItem from="1711442865428" duration="3831000" />
     </task>
     <servers />
   </component>
@@ -106,5 +108,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/Main/MainAsset.tsx</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

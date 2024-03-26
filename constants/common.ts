@@ -16,6 +16,11 @@ export const MAIN_ASSETS = [
   },
   {
     type: 'file',
+    title: 'DRT Shuttle_Fleetune',
+    link: '/portfolio/DAT_Fleetune-fcb2534eaea2470bbb4a98493ba3ecf0?pvs=4',
+  },
+  {
+    type: 'file',
     title: 'Dashboard_Fleetune',
     link: '/portfolio/Dashboard_Fleetune-510aa4ae831347a0b7a946081038f26b?pvs=4',
   },
@@ -31,23 +36,31 @@ export const MAIN_ASSETS = [
   },
   {
     type: 'folder',
-    title: 'Click Here!',
+    title: 'Documents',
     link: null,
   },
   {
     type: 'folder',
-    title: 'Documents',
+    title: 'Click Here!',
     link: null,
   },
 ];
 
 export const Documents = [
   {
-    title: 'Resume',
+    title: 'Resume_kr',
     link: '/portfolio/Wonsub-Kim-d58bb97f680141a08ff482a5eed248b8?pvs=4',
   },
   {
-    title: 'Career Description',
+    title: 'Resume_en',
+    link: '/portfolio/Wonsub-Kim-b39484ad9bb748c0bf24778c609eaa98?pvs=4',
+  },
+  {
+    title: 'Career Desc_kr',
+    link: '/portfolio/Wonsub-Kim-e2a5e5d346d042cf841dc166275c92c5?pvs=4',
+  },
+  {
+    title: 'Career Desc_en',
     link: '/portfolio/Wonsub-Kim-e2a5e5d346d042cf841dc166275c92c5?pvs=4',
   },
 ];

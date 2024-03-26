@@ -84,7 +84,7 @@ export const MainPage = () => {
             (asset: { type: string; title: string; link: string }, index: number) => {
               const folderSetter =
                 asset.type === 'folder'
-                  ? MAIN_ASSETS.length - 1 === index
+                  ? MAIN_ASSETS.length - 1 !== index
                     ? setOnClickDocFolder
                     : setOnClickFolder
                   : null;
@@ -106,15 +106,15 @@ export const MainPage = () => {
         <FaceTimeVideo ref={componentRefs[MAIN_ASSETS.length + 1]} />
         <MusicPlayer ref={componentRefs[MAIN_ASSETS.length + 2]} />
         <ResumeMemo ref={componentRefs[MAIN_ASSETS.length + 3]} />
-        <OpenedFolder
-          ref={componentRefs[MAIN_ASSETS.length + 4]}
-          onClickFolder={onClickFolder}
-          setOnClickFolder={setOnClickFolder}
-        />
         <OpenedDocFolder
           ref={componentRefs[MAIN_ASSETS.length + 5]}
           onClickDocFolder={onClickDocFolder}
           setOnClickDocFolder={setOnClickDocFolder}
+        />
+        <OpenedFolder
+          ref={componentRefs[MAIN_ASSETS.length + 4]}
+          onClickFolder={onClickFolder}
+          setOnClickFolder={setOnClickFolder}
         />
         {/*<Gallery ref={componentRefs[MAIN_ASSETS.length + 5]} />*/}
         <ChatRoom ref={componentRefs[MAIN_ASSETS.length + 6]} />
