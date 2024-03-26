@@ -106,15 +106,15 @@ export const MainPage = () => {
         <FaceTimeVideo ref={componentRefs[MAIN_ASSETS.length + 1]} />
         <MusicPlayer ref={componentRefs[MAIN_ASSETS.length + 2]} />
         <ResumeMemo ref={componentRefs[MAIN_ASSETS.length + 3]} />
-        <OpenedDocFolder
-          ref={componentRefs[MAIN_ASSETS.length + 5]}
-          onClickDocFolder={onClickDocFolder}
-          setOnClickDocFolder={setOnClickDocFolder}
-        />
         <OpenedFolder
           ref={componentRefs[MAIN_ASSETS.length + 4]}
           onClickFolder={onClickFolder}
           setOnClickFolder={setOnClickFolder}
+        />
+        <OpenedDocFolder
+          ref={componentRefs[MAIN_ASSETS.length + 5]}
+          onClickDocFolder={onClickDocFolder}
+          setOnClickDocFolder={setOnClickDocFolder}
         />
         {/*<Gallery ref={componentRefs[MAIN_ASSETS.length + 5]} />*/}
         <ChatRoom ref={componentRefs[MAIN_ASSETS.length + 6]} />

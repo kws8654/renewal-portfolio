@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d5dcec3-0299-47c1-8c1e-846494d03bb2" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/documents/[pageId].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Main/MainAsset.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/MainAsset.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Main/ResumeMemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/ResumeMemo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Main/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/pages/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UI/NotionPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/NotionPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/common.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/common.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +85,7 @@
       <workItem from="1705846460826" duration="6130000" />
       <workItem from="1707114491070" duration="5937000" />
       <workItem from="1707903219778" duration="2190000" />
-      <workItem from="1711442865428" duration="3831000" />
+      <workItem from="1711442865428" duration="5114000" />
     </task>
     <servers />
   </component>

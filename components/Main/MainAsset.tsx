@@ -2,7 +2,6 @@
 import React, { ForwardedRef, forwardRef, useEffect, useState } from 'react';
 import Image from 'next/image';
 import tw from 'twin.macro';
-import porfoliFile from '@public/images/pf1.png';
 import { useRouter } from 'next/router';
 import { useRecoilState } from 'recoil';
 import { atomClickedPortfolio } from '@/reocil/ClickedPortfolio/atom';

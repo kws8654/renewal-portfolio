@@ -9,12 +9,12 @@ import {
   faLaptop,
   faPaperPlane,
 } from '@fortawesome/free-solid-svg-icons';
-import porfoliFile from '@public/images/pf1.png';
+import portfolioFile from '@public/images/pf1.png';
 import Image from 'next/image';
 import { useRecoilState } from 'recoil';
 import { atomClickedPortfolio } from '@/reocil/ClickedPortfolio/atom';
 import { Documents } from '@/constants/common';
-import { router } from 'next/client';
+import { useRouter } from 'next/router';
 
 interface OpenedDocFolderProps {
   onClickDocFolder: boolean;
@@ -25,6 +25,7 @@ export const OpenedDocFolder = forwardRef((props: OpenedDocFolderProps, ref: For
   OpenedDocFolder.displayName = 'OpenedDocFolder';
   const { onClickDocFolder, setOnClickDocFolder } = props;
   const [clickedPortfolio, setClickedPortfolio] = useRecoilState(atomClickedPortfolio);
+  const router = useRouter();
 
   const onClickHandler = (event: any, title: string) => {
     event.stopPropagation();
@@ -85,8 +86,8 @@ export const OpenedDocFolder = forwardRef((props: OpenedDocFolderProps, ref: For
             return (
               <div key={`document-${index}`} className='flex flex-col items-center'>
                 <Image
-                  src={porfoliFile}
-                  alt={'porfoliFile'}
+                  src={portfolioFile}
+                  alt={'portfolioFile'}
                   width={100}
                   className={`${
                     document.title === clickedPortfolio &&
