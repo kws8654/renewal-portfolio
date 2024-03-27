@@ -34,7 +34,9 @@ export const DockBar = () => {
             className='styles-dock-icon'
           />
         </Link>
-        <Image src={docker} alt={'docker'} width={65} height={65} className='styles-dock-icon' />
+        <Link href='https://www.docker.com/' passHref rel='noopener noreferrer' target='_blank'>
+          <Image src={docker} alt={'docker'} width={65} height={65} className='styles-dock-icon' />
+        </Link>
         <Link
           href='https://visualstudio.microsoft.com'
           passHref
@@ -42,7 +44,7 @@ export const DockBar = () => {
           target='_blank'
         >
           <Image
-            onClick={() => setOnClickGallery(true)}
+            // onClick={() => setOnClickGallery(true)}
             src={vsc}
             alt={'vsc'}
             width={65}
@@ -50,14 +52,16 @@ export const DockBar = () => {
             className='styles-dock-icon'
           />
         </Link>
-        <Image
-          onClick={() => setOnClickChatRoom(true)}
-          src={slack}
-          alt={'slack'}
-          width={52}
-          height={52}
-          className='styles-dock-icon mx-2'
-        />
+        <Link href='https://slack.com' passHref rel='noopener noreferrer' target='_blank'>
+          <Image
+            // onClick={() => setOnClickChatRoom(true)}
+            src={slack}
+            alt={'slack'}
+            width={52}
+            height={52}
+            className='styles-dock-icon mx-2'
+          />
+        </Link>
         <Link href='https://www.iterm2.com' passHref rel='noopener noreferrer' target='_blank'>
           <Image
             src={terminal}

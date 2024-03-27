@@ -20,7 +20,7 @@ import macBookBackgroundImage from '../../../public/images/macbook-background.jp
 
 export const MainPage = () => {
   const containerRef = useRef(null);
-  const [componentRefs] = useState(() => Array.from({ length: 13 }, () => createRef<any>()));
+  const [componentRefs] = useState(() => Array.from({ length: 15 }, () => createRef<any>()));
   const setClickedPortfolio = useSetRecoilState(atomClickedPortfolio);
   const [onClickFolder, setOnClickFolder] = useState(false);
   const [onClickDocFolder, setOnClickDocFolder] = useState(false);

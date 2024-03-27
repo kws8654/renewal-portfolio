@@ -49,19 +49,19 @@ export const MAIN_ASSETS = [
 export const Documents = [
   {
     title: 'Resume_kr',
-    link: '/portfolio/Wonsub-Kim-d58bb97f680141a08ff482a5eed248b8?pvs=4',
+    link: '/documents/Wonsub-Kim-d2e35a30e5704479864dda336a34b203?pvs=4',
   },
   {
     title: 'Resume_en',
-    link: '/portfolio/Wonsub-Kim-b39484ad9bb748c0bf24778c609eaa98?pvs=4',
+    link: '/documents/Wonsub-Kim-b39484ad9bb748c0bf24778c609eaa98?pvs=4',
   },
   {
     title: 'Career Desc_kr',
-    link: '/portfolio/Wonsub-Kim-e2a5e5d346d042cf841dc166275c92c5?pvs=4',
+    link: '/documents/Wonsub-Kim-e2a5e5d346d042cf841dc166275c92c5?pvs=4',
   },
   {
     title: 'Career Desc_en',
-    link: '/portfolio/Wonsub-Kim-e2a5e5d346d042cf841dc166275c92c5?pvs=4',
+    link: '/documents/Wonsub-Kim-ab121d08f9ad439f98a93170d92f5daa?pvs=4',
   },
 ];
 
