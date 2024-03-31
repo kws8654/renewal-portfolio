@@ -17,7 +17,7 @@ export const MAIN_ASSETS = [
   {
     type: 'file',
     title: 'DRT Shuttle_Fleetune',
-    link: '/portfolio/DAT_Fleetune-fcb2534eaea2470bbb4a98493ba3ecf0?pvs=4',
+    link: '/portfolio/DRT-Shuttle_Fleetune-0159d62505344ec48ad557f8fc5e3a24?pvs=4',
   },
   {
     type: 'file',
