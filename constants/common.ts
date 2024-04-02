@@ -31,7 +31,7 @@ export const MAIN_ASSETS = [
   },
   {
     type: 'file',
-    title: '.etc',
+    title: 'Toy Project',
     link: '/portfolio/Toy-projects-7c5c721f49bc44b3b652012e76c2deb5?pvs=4',
   },
   {
