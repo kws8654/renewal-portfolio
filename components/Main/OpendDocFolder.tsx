@@ -35,7 +35,7 @@ export const OpenedDocFolder = forwardRef((props: OpenedDocFolderProps, ref: For
   return (
     <div
       ref={ref}
-      className={`absolute top-[200px] left-[350px] w-[720px] h-[415px] rounded-lg bg-neutral-100 styles-text-xs overflow-hidden hover:z-40 ${
+      className={`absolute top-[200px] left-[350px] w-[720px] h-[415px] border rounded-lg bg-neutral-100 styles-text-xs overflow-hidden hover:z-40 ${
         onClickDocFolder ? 'flex' : 'hidden'
       }`}
     >
@@ -73,7 +73,7 @@ export const OpenedDocFolder = forwardRef((props: OpenedDocFolderProps, ref: For
           <div className='flex items-center gap-[15px] styles-text-xl'>
             <p className='text-gray-700'>{`<`}</p>
             <p className='text-gray-400'>{`>`}</p>
-            <p className='font-semibold styles-text-sm'>Docs</p>
+            <p className='font-semibold styles-text-sm'>서류</p>
           </div>
           <input
             type='text'

@@ -16,6 +16,7 @@ const ABSOLUTE_POSITION = [
   { top: '160px', left: '160px' },
   { top: '310px', left: '170px' },
   { top: '430px', left: '170px' },
+  { top: '550px', left: '170px' },
 ];
 
 interface MainAssetProps {

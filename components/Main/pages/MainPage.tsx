@@ -14,16 +14,18 @@ import { Gallery } from '@components/Main/Gallery';
 import { ChatRoom } from '@components/Main/ChatRoom';
 import { DocFolder } from '@components/Main/DocFolder';
 import { OpenedDocFolder } from '@components/Main/OpendDocFolder';
+import { OpenedPlanFolder } from '@components/Main/OpenedPlanFolder';
 import { MainAsset } from '@components/Main/MainAsset';
 import Image from 'next/image';
 import macBookBackgroundImage from '../../../public/images/macbook-background.jpeg';
 
 export const MainPage = () => {
   const containerRef = useRef(null);
-  const [componentRefs] = useState(() => Array.from({ length: 15 }, () => createRef<any>()));
+  const [componentRefs] = useState(() => Array.from({ length: 20 }, () => createRef<any>()));
   const setClickedPortfolio = useSetRecoilState(atomClickedPortfolio);
   const [onClickFolder, setOnClickFolder] = useState(false);
   const [onClickDocFolder, setOnClickDocFolder] = useState(false);
+  const [onClickPlanFolder, setOnClickPlanFolder] = useState(false);
 
   useEffect(() => {
     const { width: containerWidth, height: containerHeight } =
@@ -82,12 +84,17 @@ export const MainPage = () => {
         <div className='grid grid-cols-2 gap-[20px] w-[250px]'>
           {MAIN_ASSETS.map(
             (asset: { type: string; title: string; link: string }, index: number) => {
-              const folderSetter =
-                asset.type === 'folder'
-                  ? MAIN_ASSETS.length - 1 !== index
-                    ? setOnClickDocFolder
-                    : setOnClickFolder
-                  : null;
+              let folderSetter = null;
+
+              if (asset.type === 'folder') {
+                if (index === 7) {
+                  folderSetter = setOnClickDocFolder;
+                } else if (index === 8) {
+                  folderSetter = setOnClickPlanFolder;
+                } else {
+                  folderSetter = setOnClickFolder;
+                }
+              }
 
               return (
                 <MainAsset
@@ -106,18 +113,23 @@ export const MainPage = () => {
         <FaceTimeVideo ref={componentRefs[MAIN_ASSETS.length + 1]} />
         <MusicPlayer ref={componentRefs[MAIN_ASSETS.length + 2]} />
         <ResumeMemo ref={componentRefs[MAIN_ASSETS.length + 3]} />
-        <OpenedFolder
-          ref={componentRefs[MAIN_ASSETS.length + 4]}
-          onClickFolder={onClickFolder}
-          setOnClickFolder={setOnClickFolder}
-        />
         <OpenedDocFolder
-          ref={componentRefs[MAIN_ASSETS.length + 5]}
+          ref={componentRefs[MAIN_ASSETS.length + 4]}
           onClickDocFolder={onClickDocFolder}
           setOnClickDocFolder={setOnClickDocFolder}
         />
+        <OpenedPlanFolder
+          ref={componentRefs[MAIN_ASSETS.length + 5]}
+          onClickPlanDocFolder={onClickPlanFolder}
+          setOnClickPlanDocFolder={setOnClickPlanFolder}
+        />
+        <OpenedFolder
+          ref={componentRefs[MAIN_ASSETS.length + 6]}
+          onClickFolder={onClickFolder}
+          setOnClickFolder={setOnClickFolder}
+        />
         {/*<Gallery ref={componentRefs[MAIN_ASSETS.length + 5]} />*/}
-        <ChatRoom ref={componentRefs[MAIN_ASSETS.length + 6]} />
+        <ChatRoom ref={componentRefs[MAIN_ASSETS.length + 7]} />
         <div className='absolute top-[40px] right-[10px] flex flex-col gap-[10px] md:hidden'>
           {NOTIFICATIONS.map((notification: { title: string; message: string }, index: number) => {
             return (

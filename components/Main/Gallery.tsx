@@ -26,7 +26,6 @@ export const Gallery = forwardRef((_: object, ref: ForwardedRef<any>) => {
       const url = `https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption&access_token=${process.env.NEXT_PUBLIC_INSTAGRAM_TOKEN}`;
       const data = await fetch(url);
       const feed = await data.json();
-      console.log(feed);
 
       setImages(feed.data);
     }

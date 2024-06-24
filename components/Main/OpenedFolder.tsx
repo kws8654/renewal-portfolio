@@ -57,7 +57,7 @@ export const OpenedFolder = forwardRef((props: OpenedFolderProps, ref: Forwarded
   return (
     <div
       ref={ref}
-      className={`absolute top-[200px] left-[350px] w-[720px] h-[415px] rounded-lg bg-neutral-100 styles-text-xs overflow-hidden hover:z-40 ${
+      className={`absolute top-[260px] left-[290px] w-[720px] h-[415px] border rounded-lg bg-neutral-100 styles-text-xs overflow-hidden hover:z-40 ${
         onClickFolder ? 'flex' : 'hidden'
       }`}
     >

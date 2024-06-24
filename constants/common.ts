@@ -36,7 +36,12 @@ export const MAIN_ASSETS = [
   },
   {
     type: 'folder',
-    title: 'Documents',
+    title: '서류',
+    link: null,
+  },
+  {
+    type: 'folder',
+    title: '플릿튠 기획',
     link: null,
   },
   {
@@ -48,20 +53,39 @@ export const MAIN_ASSETS = [
 
 export const Documents = [
   {
-    title: 'Resume_kr',
-    link: '/documents/Wonsub-Kim-d2e35a30e5704479864dda336a34b203?pvs=4',
+    title: '이력서',
+    link: '/documents/31d25a00fcda445d95847aa53a519eae?pvs=4',
   },
   {
-    title: 'Resume_en',
-    link: '/documents/Wonsub-Kim-b39484ad9bb748c0bf24778c609eaa98?pvs=4',
-  },
-  {
-    title: 'Career Desc_kr',
+    title: '경력 기술서',
     link: '/documents/Wonsub-Kim-e2a5e5d346d042cf841dc166275c92c5?pvs=4',
   },
   {
-    title: 'Career Desc_en',
+    title: 'resume',
+    link: '/documents/Wonsub-Kim-b39484ad9bb748c0bf24778c609eaa98?pvs=4',
+  },
+  {
+    title: 'career desc.',
     link: '/documents/Wonsub-Kim-ab121d08f9ad439f98a93170d92f5daa?pvs=4',
+  },
+];
+
+export const PlanDocuments = [
+  {
+    title: 'Fleetune',
+    link: '/portfolio/Fleetune-Platform_Fleetune-efdab541202d430aa17ed801c11e173d?pvs=4',
+  },
+  {
+    title: 'POI Editor',
+    link: '/portfolio/POI-Editor_Fleetune-2e4cda15bffb453bb501deefdd4a9c1f?pvs=4',
+  },
+  {
+    title: 'Dispatch Analysis Tool',
+    link: '/portfolio/DAT_Fleetune-362a2256d4a6422a9d19d36834780d03?pvs=4',
+  },
+  {
+    title: 'DRT Shuttle',
+    link: '/portfolio/DRT-Shuttle_Fleetune-59c0f514e99c481a939fc02404ca5b6e?pvs=4',
   },
 ];
 
